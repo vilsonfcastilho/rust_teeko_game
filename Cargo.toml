@@ -1,0 +1,9 @@
+[package]
+name = "rust_teeko_game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.sdl2]
+default-features = false
+features = ["image"]
+version = "*"
